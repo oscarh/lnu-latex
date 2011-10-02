@@ -63,7 +63,7 @@
 	\begin{adjustwidth}{-3cm}{-4cm}
 	\begin{tabular*}{1.0\linewidth}{ l | l }
 	\includegraphics[width=1.0cm]{lnu_symbol.pdf}\hspace{1.5cm} & \includegraphics{lnu_sublogo.pdf}\\*
-	& \\*
+	                                              & \\*
 	                                              &	\lnu@institution\\*
 	                                              & {\lnu@course} {\lnu@points}hp Modul \lnu@module\\*
 	                                              & \lnu@subcourse\\*
