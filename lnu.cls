@@ -11,7 +11,7 @@
 \LoadClass{article}
 
 \RequirePackage[latin1,utf8]{inputenc}
-\RequirePackage[lmargin=4cm,rmargin=5cm,tmargin=3cm,bmargin=3cm]{geometry}
+\RequirePackage[lmargin=4.0cm,rmargin=3.5cm,tmargin=3cm,bmargin=3cm]{geometry}
 \RequirePackage{graphicx}
 \RequirePackage[english]{babel}
 \RequirePackage{ifthen}
@@ -60,7 +60,7 @@
 }
 
 \renewcommand{\maketitle}{%
-	\begin{adjustwidth}{-3cm}{-4cm}
+	\begin{adjustwidth}{-3.0cm}{-4cm}
 	\begin{tabular*}{1.0\linewidth}{ l | l }
 	\includegraphics[width=1.0cm]{lnu_symbol.pdf}\hspace{1.5cm} & \includegraphics{lnu_sublogo.pdf}\\*
 	                                              & \\*
