@@ -13,7 +13,7 @@
 \RequirePackage[latin1,utf8]{inputenc}
 \RequirePackage[lmargin=4.0cm,rmargin=3.5cm,tmargin=3cm,bmargin=3cm]{geometry}
 \RequirePackage{graphicx}
-\RequirePackage[english]{babel}
+\RequirePackage{babel}
 \RequirePackage{ifthen}
 \RequirePackage{changepage}
 
@@ -36,11 +36,13 @@
 
 \IfFileExists{inc/lnu_symbol.pdf}{}{
 	\ClassError{lnu_symbol}%
+	{Cannot find lnu_symbol.pdf}%
 	{Please make sure that lnu_symbol.pdf exists in your inc directory.}
 }
 
 \IfFileExists{inc/lnu_sublogo.pdf}{}{
 	\ClassError{lnu_sublogo}%
+	{Cannot find lnu_sublogo.pdf}%
 	{Please make sure that lnu_sublogo.pdf exists in your inc directory.}
 }
 
